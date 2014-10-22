@@ -1,3 +1,19 @@
 git Init 初始化仓库建立一个空仓库
 git add file.name  加入一个文件 可以使用多次
 git commit -m “给此步骤命名 做了什么事如wrote a file”提交到仓库
+git status 查看状态 哪些文件被修改过
+git diff可以查看修改的文件内容
+git log 查看历史记录 commit：每一次提交得到一个版本快照
+git rested --hard commit-id
+git reflog 查看历史命令
+
+----------------------------------
+工作区	--【add--】	版本库【.git】
+Working Directory	Repository
+			暂存区stage(index)             指针HEAD
+					  ---【commit】--master 
+Git 管理的是修改而非文件本身！
+
+git checkout空格--空格file.name 丢弃file中在工作区的修改
+git reset HEAD file.name丢弃掉暂存区的内容
+git 【rm】 fie.name 删除文件--再【commit】
