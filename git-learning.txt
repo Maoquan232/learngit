@@ -1,0 +1,3 @@
+git Init 初始化仓库建立一个空仓库
+git add file.name  加入一个文件 可以使用多次
+git commit -m “给此步骤命名 做了什么事如wrote a file”提交到仓库
